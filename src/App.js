@@ -1,14 +1,13 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Main from "./components/main/main"
-import { Routes, Route } from "react-router-dom";
+import Second from "./components/second-page/second"
+
 function App() {
   return (
     <div>
-    <Routes>
-      <Route path="/" element={<Main />} />
-      
-    </Routes>
+      <Main/>
+      <Second/>
   </div>  );
 }
-export default App;
+export default App
